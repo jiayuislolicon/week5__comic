@@ -1,0 +1,42 @@
+.header {
+    font-family: 'Open Sans';
+    position: relative;
+    z-index: 100;
+}
+
+.logo {
+    position: fixed;
+    left: 60px;
+    top: 26px;
+}
+
+.menu {
+    position: fixed;
+    right: 60px;
+    top: 30px;
+    text-align: right;
+    color: var(--main);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    justify-content: space-between;
+    display: none;
+
+    @media(--desktop) {
+        display: flex;
+    }
+
+    & a {
+        margin-left: 100px;
+        display: block;
+        position: relative;
+        padding: 0 3px;
+        box-sizing: content-box;
+        color: black;
+
+        &.active {
+            color: red;
+        }
+
+    }
+}
