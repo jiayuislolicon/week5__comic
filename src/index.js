@@ -6,7 +6,7 @@ let AppRouter = <HashRouter><App/></HashRouter>
 
 window.onload = () => {
     ReactDOM.render(
-        <Provider store={Store}>
+        <Provider store={store}>
             {AppRouter}
         </Provider>,
         document.getElementById('root')
