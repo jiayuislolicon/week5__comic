@@ -1,4 +1,5 @@
 .header{
+    margin-bottom: 40px;
     & .decoration-line{
         width: 100%;
         max-width: 458px;

@@ -4,7 +4,7 @@ import "IndexPage.css"
 export default class UpdatePicturePage extends React.Component {
 
     render() {
-        return <div className='section-picture'>
+        return <div className='section-picture page'>
             <div className="title">
                 <h1>Update Profile Picture</h1>
                 <span>We wanna know you more!</span>

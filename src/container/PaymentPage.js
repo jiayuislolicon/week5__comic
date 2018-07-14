@@ -4,7 +4,7 @@ import "IndexPage.css"
 export default class PaymentPage extends React.Component {
 
     render() {
-        return <div className='section-payment'>
+        return <div className='section-payment page'>
         	<div className="title">
         		<h1>Payment Method</h1>
         		<span>Add your credit card infomation!</span>

@@ -4,7 +4,7 @@ import "IndexPage.css"
 export default class InformationPage extends React.Component {
 
     render() {
-        return <div className='section-informationpage'>
+        return <div className='section-information page'>
             <div className="title">
                 <h1>Create Account</h1>
                 <span>Create Account</span>
