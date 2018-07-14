@@ -9,8 +9,8 @@ let mediaQuery = {
 }
 
 let variables = {
-    'main': '#E00442',
-    'bkg-lightgrey': '#F3F3F3',
+    'main': '#0275D8',
+    'lightblue': '#BEE1FF',
     'bkg-darkgrey':'#E9E9E9',
     'bkg-hover':'#FEFBD3',
     'popup':'rgba(100,100,100,0.6)',
