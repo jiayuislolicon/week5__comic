@@ -9,7 +9,7 @@ export default class PaymentPage extends React.Component {
         		<h1>Payment Method</h1>
         		<span>Add your credit card infomation!</span>
         	</div>
-        	<div className="panel-top">
+        	<div className="form">
         		<div className="input-wrapper">
         			<h5>Card Number</h5>
         			<div className="input">
@@ -19,7 +19,7 @@ export default class PaymentPage extends React.Component {
         			
         		</div>
         	</div>
-        	<div className="panel-mid">
+        	<div className="form">
         		<div className="input-wrapper">
         			<h5>Cardholder Name</h5>
         			<input type="text" placeholder='EXAMPLE NAME'/>
@@ -29,20 +29,24 @@ export default class PaymentPage extends React.Component {
         			<input type="text" placeholder='EXAMPLE BANK'/>
         		</div>
         	</div>
-        	<div className="panel-bot">
+        	<div className="form credit">
         		<div className="input-wrapper">
         			<h5>CVV</h5>
         			<input type="text" placeholder='123'/>
         		</div>
-        		<div className="input-expire">
+        		<div className="input-wrapper expire">
         			<h5>Expire Date</h5>
-        			<input type="text" placeholder='MM'/>
-        			<input type="text" placeholder='DD'/>
+        			<select name='Month' date-from='1' date-to='12' required>
+                            <option value="">MM</option>
+                    </select>
+                    <select name='Day' date-from='1' date-to='31' required>
+                            <option value="">Day</option>
+                    </select>
         		</div>
         	</div>
-        	<div className="btn">
+        	<Link to='done'><div className="submit-button">
         		<span>DONE</span>
-        	</div>
+        	</div></Link>
         </div>
     }
 }

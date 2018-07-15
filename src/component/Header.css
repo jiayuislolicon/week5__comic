@@ -6,6 +6,7 @@
         margin: auto;
         height: 5px;
         background-color: var(--main);
+        animation: strokeWidth 1s;
         @media(--desktop){
             height: 8px;
         }
@@ -79,5 +80,16 @@
                 
             }
         }
+    }
+}
+
+@keyframes strokeWidth{
+    from{
+        width: 20px;
+        margin: auto;
+    }
+    to{
+        width: 100%;
+        margin: auto;
     }
 }

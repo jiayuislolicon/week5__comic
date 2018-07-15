@@ -4,12 +4,12 @@ import "IndexPage.css"
 export default class FormDonePage extends React.Component {
 
     render() {
-        return <div className='section-formdone'>
+        return <div className='section-formdone page'>
         	<div className="title">
         		<h1>Congratulations</h1>
         		<span>Now you’re one of us! </span>
         	</div>
-        	<div className="smile">
+        	<div className="content">
         		<div className="pic">
         			<img src={`${process.env.PUBLIC_PATH}asset/smile.svg`} alt=""/>
         		</div>
